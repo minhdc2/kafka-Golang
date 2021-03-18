@@ -1,0 +1,1 @@
+[2021-03-17 13:10:29,018] TRACE [Broker id=2] Cached leader info PartitionState(controllerEpoch=13, leader=1, leaderEpoch=0, isr=[1], zkVersion=0, replicas=[1], offlineReplicas=[]) for partition message-log-0 in response to UpdateMetadata request sent by controller 3 epoch 13 with correlation id 5 (state.change.logger)

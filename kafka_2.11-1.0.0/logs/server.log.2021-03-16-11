@@ -1,0 +1,581 @@
+[2021-03-16 12:02:21,617] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 1
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 1.0-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs1
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 1.0-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-03-16 12:02:21,812] INFO starting (kafka.server.KafkaServer)
+[2021-03-16 12:02:21,819] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-03-16 12:02:21,843] INFO Starting ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2021-03-16 12:02:21,852] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,853] INFO Client environment:host.name=5ZW6IG6TGSZI99G.localdomain (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,855] INFO Client environment:java.version=1.8.0_272 (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,856] INFO Client environment:java.vendor=Private Build (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,856] INFO Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,858] INFO Client environment:java.class.path=:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/argparse4j-0.7.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/commons-lang3-3.5.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/connect-api-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/connect-file-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/connect-json-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/connect-runtime-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/connect-transforms-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/guava-20.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/hk2-api-2.5.0-b32.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jackson-annotations-2.9.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jackson-core-2.9.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jackson-databind-2.9.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-base-2.9.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-json-provider-2.9.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jackson-module-jaxb-annotations-2.9.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/javassist-3.20.0-GA.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/javassist-3.21.0-GA.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/javax.annotation-api-1.2.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/javax.inject-1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/javax.inject-2.5.0-b32.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/javax.servlet-api-3.1.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jersey-client-2.25.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jersey-common-2.25.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jersey-guava-2.25.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jersey-server-2.25.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-continuation-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-http-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-io-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-security-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-server-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-servlet-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-servlets-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jetty-util-9.2.22.v20170606.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/jopt-simple-5.0.4.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka-clients-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka-log4j-appender-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka-streams-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka-streams-examples-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka-tools-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-sources.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-test-sources.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/log4j-1.2.17.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/lz4-java-1.4.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/maven-artifact-3.5.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/metrics-core-2.2.0.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/plexus-utils-3.0.24.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/reflections-0.9.11.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/rocksdbjni-5.7.3.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/scala-library-2.11.11.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/slf4j-api-1.7.25.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/snappy-java-1.1.4.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/validation-api-1.1.0.Final.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/zkclient-0.10.jar:/mnt/e/Kafka/kafka_2.11-1.0.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,860] INFO Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,864] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,866] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,866] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,867] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,867] INFO Client environment:os.version=4.4.0-18362-Microsoft (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,868] INFO Client environment:user.name=minhdc2 (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,868] INFO Client environment:user.home=/home/minhdc2 (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,869] INFO Client environment:user.dir=/mnt/e/Kafka/kafka_2.11-1.0.0 (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,871] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@49ec71f8 (org.apache.zookeeper.ZooKeeper)
+[2021-03-16 12:02:21,892] INFO Waiting for keeper state SyncConnected (org.I0Itec.zkclient.ZkClient)
+[2021-03-16 12:02:21,896] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-03-16 12:02:21,908] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2021-03-16 12:02:22,048] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1783939d4790000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2021-03-16 12:02:22,054] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2021-03-16 12:02:22,423] INFO Cluster ID = dfOcKNtXSbKMBHy8ASAGSw (kafka.server.KafkaServer)
+[2021-03-16 12:02:22,435] WARN No meta.properties file under dir /tmp/kafka-logs1/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2021-03-16 12:02:22,485] INFO [ThrottledRequestReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-03-16 12:02:22,487] INFO [ThrottledRequestReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-03-16 12:02:22,490] INFO [ThrottledRequestReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-03-16 12:02:22,567] INFO Loading logs. (kafka.log.LogManager)
+[2021-03-16 12:02:22,583] INFO Logs loading complete in 15 ms. (kafka.log.LogManager)
+[2021-03-16 12:02:22,822] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2021-03-16 12:02:22,826] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2021-03-16 12:02:23,222] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2021-03-16 12:02:23,233] INFO [SocketServer brokerId=1] Started 1 acceptor threads (kafka.network.SocketServer)
+[2021-03-16 12:02:23,261] INFO [ExpirationReaper-1-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-03-16 12:02:23,263] INFO [ExpirationReaper-1-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-03-16 12:02:23,269] INFO [ExpirationReaper-1-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-03-16 12:02:23,287] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2021-03-16 12:02:23,358] INFO [ExpirationReaper-1-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-03-16 12:02:23,368] INFO [ExpirationReaper-1-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-03-16 12:02:23,373] INFO [ExpirationReaper-1-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-03-16 12:02:23,378] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2021-03-16 12:02:23,388] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2021-03-16 12:02:23,396] INFO [GroupCoordinator 1]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2021-03-16 12:02:23,399] INFO [GroupCoordinator 1]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2021-03-16 12:02:23,402] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2021-03-16 12:02:23,424] INFO [ProducerId Manager 1]: Acquired new producerId block (brokerId:1,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2021-03-16 12:02:23,458] INFO [TransactionCoordinator id=1] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2021-03-16 12:02:23,462] INFO [Transaction Marker Channel Manager 1]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2021-03-16 12:02:23,462] INFO [TransactionCoordinator id=1] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2021-03-16 12:02:23,535] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2021-03-16 12:02:23,547] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2021-03-16 12:02:23,550] INFO Registered broker 1 at path /brokers/ids/1 with addresses: EndPoint(5ZW6IG6TGSZI99G.localdomain,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2021-03-16 12:02:23,556] WARN No meta.properties file under dir /tmp/kafka-logs1/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2021-03-16 12:02:23,588] INFO Kafka version : 1.0.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2021-03-16 12:02:23,590] INFO Kafka commitId : aaa7af6d4a11b29d (org.apache.kafka.common.utils.AppInfoParser)
+[2021-03-16 12:02:23,596] INFO [KafkaServer id=1] started (kafka.server.KafkaServer)
+[2021-03-16 12:12:23,399] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2021-03-16 12:22:23,398] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2021-03-16 12:28:11,876] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions my-kafka-topic-2,my-kafka-topic-0 (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:28:11,936] INFO Loading producer state from offset 0 for partition my-kafka-topic-2 with message format version 2 (kafka.log.Log)
+[2021-03-16 12:28:11,951] INFO Completed load of log my-kafka-topic-2 with 1 log segments, log start offset 0 and log end offset 0 in 44 ms (kafka.log.Log)
+[2021-03-16 12:28:11,956] INFO Created log for partition [my-kafka-topic,2] in /tmp/kafka-logs1 with properties {compression.type -> producer, message.format.version -> 1.0-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-03-16 12:28:11,960] INFO [Partition my-kafka-topic-2 broker=1] No checkpointed highwatermark is found for partition my-kafka-topic-2 (kafka.cluster.Partition)
+[2021-03-16 12:28:11,964] INFO Replica loaded for partition my-kafka-topic-2 with initial high watermark 0 (kafka.cluster.Replica)
+[2021-03-16 12:28:11,966] INFO Replica loaded for partition my-kafka-topic-2 with initial high watermark 0 (kafka.cluster.Replica)
+[2021-03-16 12:28:11,970] INFO [Partition my-kafka-topic-2 broker=1] my-kafka-topic-2 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2021-03-16 12:28:11,999] INFO Loading producer state from offset 0 for partition my-kafka-topic-0 with message format version 2 (kafka.log.Log)
+[2021-03-16 12:28:12,005] INFO Completed load of log my-kafka-topic-0 with 1 log segments, log start offset 0 and log end offset 0 in 11 ms (kafka.log.Log)
+[2021-03-16 12:28:12,007] INFO Created log for partition [my-kafka-topic,0] in /tmp/kafka-logs1 with properties {compression.type -> producer, message.format.version -> 1.0-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-03-16 12:28:12,009] INFO [Partition my-kafka-topic-0 broker=1] No checkpointed highwatermark is found for partition my-kafka-topic-0 (kafka.cluster.Partition)
+[2021-03-16 12:28:12,011] INFO Replica loaded for partition my-kafka-topic-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2021-03-16 12:28:12,014] INFO Replica loaded for partition my-kafka-topic-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2021-03-16 12:28:12,015] INFO [Partition my-kafka-topic-0 broker=1] my-kafka-topic-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2021-03-16 12:28:12,027] INFO Replica loaded for partition my-kafka-topic-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2021-03-16 12:28:12,038] INFO Loading producer state from offset 0 for partition my-kafka-topic-1 with message format version 2 (kafka.log.Log)
+[2021-03-16 12:28:12,042] INFO Completed load of log my-kafka-topic-1 with 1 log segments, log start offset 0 and log end offset 0 in 9 ms (kafka.log.Log)
+[2021-03-16 12:28:12,046] INFO Created log for partition [my-kafka-topic,1] in /tmp/kafka-logs1 with properties {compression.type -> producer, message.format.version -> 1.0-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-03-16 12:28:12,049] INFO [Partition my-kafka-topic-1 broker=1] No checkpointed highwatermark is found for partition my-kafka-topic-1 (kafka.cluster.Partition)
+[2021-03-16 12:28:12,050] INFO Replica loaded for partition my-kafka-topic-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2021-03-16 12:28:12,058] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions my-kafka-topic-1 (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:28:12,102] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:12,113] INFO [ReplicaFetcherManager on broker 1] Added fetcher for partitions List([my-kafka-topic-1, initOffset 0 to broker BrokerEndPoint(2,5ZW6IG6TGSZI99G.localdomain,9092)] ) (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:28:12,178] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:13,191] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:14,197] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:15,209] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:16,218] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:17,231] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:18,243] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:19,255] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:20,269] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:21,277] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:22,287] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:23,287] INFO [Partition my-kafka-topic-2 broker=1] Shrinking ISR from 1,2 to 1 (kafka.cluster.Partition)
+[2021-03-16 12:28:23,295] INFO [Partition my-kafka-topic-0 broker=1] Shrinking ISR from 1,2 to 1 (kafka.cluster.Partition)
+[2021-03-16 12:28:23,295] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:24,305] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:25,314] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:26,320] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:27,326] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:28,336] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:29,346] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:30,357] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:31,367] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:32,377] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:33,388] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:34,399] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:35,409] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:36,417] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:37,427] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:38,435] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:39,446] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:40,454] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:41,466] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:42,475] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:43,484] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:44,493] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:45,503] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:46,511] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:47,518] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:48,525] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:49,535] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:50,546] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:51,556] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:52,566] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:53,574] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:54,585] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:55,593] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:56,600] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:57,618] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:58,626] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:28:59,638] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:00,681] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:01,687] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:02,692] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:03,697] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:04,702] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:05,708] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:06,713] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:07,720] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:08,725] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:09,730] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:10,736] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:11,743] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:12,749] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:13,759] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:14,769] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:15,780] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:16,790] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:17,798] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:18,805] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:19,813] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:20,821] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:21,831] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:22,842] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:23,855] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:24,865] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:25,874] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:26,885] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:27,893] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:28,901] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:29,907] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:30,914] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:31,924] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:32,933] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:33,942] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:34,951] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:35,960] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:36,969] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:37,976] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:38,980] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:39,986] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:40,994] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:42,000] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:43,010] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:44,016] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:45,023] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:46,027] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:47,033] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:48,041] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:49,056] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:50,067] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:51,076] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:52,086] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:53,092] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:54,100] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:55,109] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:56,120] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:57,129] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:58,138] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:29:59,143] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:00,150] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:01,155] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:02,160] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:03,167] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:04,178] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:05,187] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:06,196] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:07,202] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:08,211] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:09,220] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:10,231] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:11,241] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:12,250] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:13,258] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:14,267] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:15,278] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:16,286] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:17,295] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:18,304] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:19,313] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:20,320] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:21,328] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:22,335] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:23,342] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:24,350] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:25,359] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:26,367] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:27,375] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:28,387] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:29,395] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:30,404] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:31,413] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:32,421] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:33,430] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:34,438] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:35,445] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:36,451] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:37,460] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:38,466] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:39,472] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:40,482] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:41,490] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:42,498] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:43,507] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:44,516] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:45,524] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:46,531] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:47,535] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:48,541] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:49,550] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:50,561] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:51,569] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:52,579] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:53,587] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:54,595] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:55,604] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:56,609] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:57,617] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:58,625] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:30:59,633] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:00,641] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:01,648] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:02,653] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:03,659] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:04,662] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:05,666] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:06,671] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:07,676] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:08,680] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:09,684] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:10,689] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:11,695] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:12,703] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:13,711] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:14,716] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:15,722] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:16,727] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:17,733] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:18,741] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:19,749] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:20,758] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:21,767] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:22,777] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:23,786] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:24,792] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:25,798] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:26,808] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:27,812] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:28,818] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:29,826] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:30,832] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:31,842] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:32,852] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:33,857] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:34,862] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:35,867] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:36,872] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:37,877] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:38,886] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:39,892] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:40,898] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:41,905] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:42,911] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:43,920] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:44,929] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:45,936] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:46,943] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:47,952] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:48,959] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:49,969] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:50,977] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:51,983] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:52,991] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:53,999] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:55,008] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:56,017] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:57,027] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:58,034] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:31:59,045] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:00,051] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:01,055] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:02,060] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:03,066] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:04,075] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:05,084] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:06,090] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:07,096] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:08,100] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:09,107] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:10,114] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:11,119] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:12,130] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:13,140] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:14,151] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:15,159] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:16,166] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:17,174] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:18,180] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:19,187] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:20,195] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:21,208] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:22,212] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:23,217] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:23,399] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2021-03-16 12:32:24,222] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:25,229] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:26,239] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:27,249] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:28,258] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:29,268] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:30,275] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:31,279] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:32,285] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:33,292] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:34,300] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:35,308] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:36,315] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:37,323] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:38,331] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:39,338] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:40,344] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:41,352] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:42,361] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:43,370] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:44,377] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:45,381] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:46,385] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:47,427] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:48,440] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:49,443] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:50,447] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:51,452] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:52,460] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:53,465] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:54,469] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:55,473] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:56,479] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:57,487] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:58,492] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:32:59,524] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:00,534] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:01,542] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:02,548] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:03,553] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:04,559] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:05,567] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:06,570] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:07,574] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:08,580] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:09,589] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:10,593] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:11,597] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:12,602] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:13,608] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:14,614] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:15,623] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:16,631] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:17,639] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:18,647] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:19,656] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:20,666] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:21,673] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:22,683] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:23,690] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:24,696] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:25,706] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:26,715] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:27,722] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:28,728] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:29,737] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:30,746] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:31,756] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:32,763] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:33,768] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:34,776] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:35,783] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:36,789] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:37,795] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:38,802] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:39,815] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Retrying leaderEpoch request for partition my-kafka-topic-1 as the leader reported an error: NOT_LEADER_FOR_PARTITION (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:39,900] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions my-kafka-topic-2 (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:33:39,916] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions my-kafka-topic-2 (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:33:39,925] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions my-kafka-topic-1 (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:33:39,929] INFO [Partition my-kafka-topic-1 broker=1] my-kafka-topic-1 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2021-03-16 12:33:39,933] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Shutting down (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:39,937] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:39,937] INFO [ReplicaFetcher replicaId=1, leaderId=2, fetcherId=0] Stopped (kafka.server.ReplicaFetcherThread)
+[2021-03-16 12:33:39,956] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions my-kafka-topic-0 (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:33:39,971] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions my-kafka-topic-0 (kafka.server.ReplicaFetcherManager)
+[2021-03-16 12:42:23,399] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2021-03-16 12:52:23,399] INFO [GroupMetadataManager brokerId=1] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
