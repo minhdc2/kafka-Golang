@@ -24,7 +24,7 @@ func main() {
 	// 1. connection parameters
 	server := "5ZW6IG6TGSZI99G"
 	user := "sa"
-	password := "Iamshining13"
+	password := ""
 	port := 1433
 
 	connString := sql_con_str(server, user, password, port)
